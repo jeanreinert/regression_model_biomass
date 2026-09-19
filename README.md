@@ -21,7 +21,7 @@ The predictive modeling was built using the `caret` package in R. The following 
 
 To rank and compare the models, the scripts calculate the following metrics on the test set:
 
-* **$R^2$ (Coefficient of Determination):** Primary metric used to order model performance.
+* **R^2 (Coefficient of Determination):** Primary metric used to order model performance.
 * **Syx (Standard Error of the Estimate):** Calculated with 1 degree of freedom.
 * **Pearson Correlation (r):** Measures the linear correlation between observed and predicted values.
 * **RMSE (Root Mean Square Error):** Measures the average magnitude of the errors.
